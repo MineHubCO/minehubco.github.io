@@ -3,7 +3,7 @@ MineHubCO.github.io
 
 Website for MineHub.co
 
-Based off of https://github.com/IronSummitMedia/startbootstrap/tree/gh-pages/templates/freelancer
+Based off of https://github.com/IronSummitMedia/startbootstrap-freelancer
 
 License
 ----
