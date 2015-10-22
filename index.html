@@ -1,440 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="MineHub Game Server Survival Factions PVP MineHubCO">
-	<link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico" />
-
-    <title>MineHub.CO Minecraft Game Servers! MineHub</title>
-
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <title>MineHub.CO Minecraft Servers</title>
+    <meta name="description" content="MineHub Game Server Cloud Based Fun for MineCraft" />
+    <meta name="keywords" content="minecraft, minehub, minehub.co, cloud, servers, easy" />
+    <meta name="author" content="MineHub Game Servers" />
+    <!-- Favicons (created with http://realfavicongenerator.net/)-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/img/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/img/favicons/manifest.json">
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#334b7f">
+    <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#334b7f">
+    <!-- Normalize -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Owl -->
+    <link rel="stylesheet" type="text/css" href="css/owl.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.4.0/css/font-awesome.min.css">
+    <!-- Main style -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+<body>
+    <div class="preloader">
+        <i class="fa fa-cog fa-5x fa-spin"></i>
+    </div>
+    <nav class="navbar">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">MineHub MineCraft</a>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Server</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#donate">Donate</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                    	<a href="http://status.minehub.co/">Status</a>
-                    </li>
+                <ul class="nav navbar-nav navbar-right main-nav">
+                    <li class="padding"><a href="#intro">Intro</a></li>
+                    <li class="padding"><a href="#servers">Servers</a></li>
+                    <li class="padding"><a href="#team">Team</a></li>
+                    <li class="padding"><a href="#pricing">Ranks</a></li>
+                    <li class="padding"><a href="https://forum.minehub.co" class="btn btn-blue">Forum</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-    <!-- Header -->
-    <header>
+    <header id="intro">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Join MineHub</span>
-                        <hr class="star-light">
-                        <span class="skills">Survival - Awesomeness - Minigames</span>
-                        <br>
-                        <br>
-                        <span class="skills">PLAY.MINEHUB.CO</span>
+            <div class="table">
+                <div class="header-text">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h3 class="light white">The most advanced Minecraft server.</h3>
+                            <h1 class="white typed">play.minehub.co</h1>
+                            <span class="typed-cursor">|</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section>
+        <div class="cut cut-top"></div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Servers</h2>
-                    <hr class="star-primary">
+            <div class="row intro-tables">
+                <div class="col-md-4">
+                    <div class="intro-table intro-table-first">
+                        <h5 class="white heading hide-hover">Recent Updates</h5>
+                        <div>
+                            <br>
+                            <br>
+                            <h4 class="white heading small-heading no-margin regular">New Pod Templates</h4>
+                            <br>
+                            <h4 class="white heading small-heading no-margin regular">New Website!</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="intro-table intro-table-hover">
+                        <h5 class="white heading hide-hover">Premium Rank</h5>
+                        <div class="bottom">
+                            <h4 class="white heading small-heading no-margin regular">Donate Today</h4>
+                            <h4 class="white heading small-pt">20% Discount</h4>
+                            <a href="#pricing" class="btn btn-white-fill expand">Donate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="intro-table intro-table-third">
+                        <h5 class="white heading">User Reviews</h5>
+                        <div class="owl-testimonials bottom">
+                            <div class="item">
+                                <h4 class="white heading content">I'm amazed by the server's ability to adapt to what I want!</h4>
+                                <h5 class="white heading light author">Steve</h5>
+                            </div>
+                            <div class="item">
+                                <h4 class="white heading content">I can't believe how easy it is to use. I love it!</h4>
+                                <h5 class="white heading light author">Jugglernaught</h5>
+                            </div>
+                            <div class="item">
+                                <h4 class="white heading content">I didn't think this was possible, but this is amazing!</h4>
+                                <h5 class="white heading light author">Bob</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
+        </div>
+        <div class="cut cut-bottom"></div>
+    </section>
+    <section id="servers" class="section section-padded">
+        <div class="container">
+            <div class="row text-center title">
+                <h2>Servers</h2>
+                <h4 class="light">Have the best possible Minecraft experience</h4>
+            </div>
+            <div class="row servers">
+                <div class="col-md-4">
+                    <div class="server">
+                        <div class="icon-holder">
+                            <i class="fa fa-map-o fa-3x"></i>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                    </a>
-                <h2 align="center">Survival</h2>
+                        <h4 class="heading">The Latest Maps</h4>
+                        <p class="description">We strive to give players the latest and greatest maps, even maps that use command blocks.</p>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
+                <div class="col-md-4">
+                    <div class="server">
+                        <div class="icon-holder">
+                            <i class="fa fa-battery-full fa-3x"></i>
                         </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                <h2 align="center">Lobby</h2>
+                        <h4 class="heading">Always Online</h4>
+                        <p class="description">By using ProxyConn Bungee Suite we keep the server running with the absolute minimum downtime.</p>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
+                <div class="col-md-4">
+                    <div class="server">
+                        <div class="icon-holder">
+                            <i class="fa fa-trophy fa-3x"></i>
                         </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
-                <h2 align="center">Games</h2>
+                        <h4 class="heading">Designed for You</h4>
+                        <p class="description">We are focused on providing you the greatest and most unique experience with our servers.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
+    <section id="team" class="section gray-bg">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
+            <div class="row title text-center">
+                <h2 class="margin-top">The Team</h2>
+                <h4 class="light muted">Working for you</h4>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>We are a server dedicated to providing the best server experience possible, creating a fair, fun, and friendly environment.</p>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/team/team-cover1.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white">portalBlock</h3>
+                                <h5 class="light light-white">I program.</h5>
+                            </div>
+                        </div>
+                        <img src="img/team/team3.jpg" alt="Team Image" class="avatar">
+                        <div class="title">
+                            <h4>portalBlock</h4>
+                            <h5 class="muted regular">Owner <i class="fa fa-code"></i> Developer</h5>
+                        </div>
+                        <a href="https://twitter.com/portalBlock" class="btn btn-blue-fill ripple"><i class="fa fa-twitter"></i> @portalBlock</a>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <p>Minehub is maintained, administrated and was created by Wferr.</p>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/team/team-cover2.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white">Wferr</h3>
+                                <h5 class="light light-white">I made stuff happen.</h5>
+                            </div>
+                        </div>
+                        <img src="img/team/team1.jpg" alt="Team Image" class="avatar">
+                        <div class="title">
+                            <h4>Wferr</h4>
+                            <h5 class="muted regular">Owner <i class="fa fa-code"></i> Founder</h5>
+                        </div>
+                        <a href="https://twitter.com/rrefw" class="btn btn-blue-fill ripple"><i class="fa fa-twitter"></i> @rrefw</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team text-center">
+                        <div class="cover" style="background:url('img/team/team-cover3.jpg'); background-size:cover;">
+                            <div class="overlay text-center">
+                                <h3 class="white">You</h3>
+                                <h5 class="light light-white">Apply to be part of our team</h5>
+                            </div>
+                        </div>
+                        <img src="img/team/team2.jpg" alt="Team Image" class="avatar">
+                        <div class="title">
+                            <h4>You</h4>
+                            <h5 class="muted regular">Apply to be part of our team</h5>
+                        </div>
+                        <a href="mailto:apply@minehub.co" class="btn btn-blue-fill ripple">Apply Here!</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
+    <section id="pricing" class="section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Us</h2>
-                    <hr class="star-primary">
-                </div>
+            <div class="row title text-center">
+                <h2 class="pricing-top white">Ranks</h2>
+                <h4 class="light white">Keep us in business and you looking pretty</h4>
             </div>
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1">
-                    <p>For the quickest response to your general or support questions, please send a Tweet to a <href="http://twitter.com/MineHubCO">@MineHubCO</a> with your inquiry.</p>
-                    <br>
-                    <p>If you do not have a Twitter account, feel free to e-mail us at <a href="mailto:hello@minehub.co">hello@minehub.co</a></p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-1">
-                    <a class="twitter-timeline" data-dnt="true" data-link-color="#18bc9c" data-tweet-limit="2" data-chrome="nofooter" href="https://twitter.com/MineHubCO" data-widget-id="495697428280909825">Tweets by @MineHubCO</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+            <div class="row no-margin">
+                <div class="col-md-7 no-padding col-md-offset-5 pricings text-center">
+                    <div class="pricing">
+                        <div class="box-main active" data-img="img/pricing1.jpg">
+                            <h4 class="white">Default</h4>
+                            <h4 class="white regular light">Price<span class="small-font">: Free</span></h4>
+                            <a href="#" data-toggle="modal" data-target="#joinnow" class="btn btn-white-fill">Play Now</a>
+                            <i class="info-icon fa fa-question"></i>
+                        </div>
+                        <div class="box-second active">
+                            <ul class="white-list text-left">
+                                <li>Create personal Pods</li>
+                                <li>Play on other people's Pods</li>
+                                <li>Free tools &amp; props</li>
+                                <li>Free staff support 24/7</li>
+                                <li>Free now and forever</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pricing">
+                        <div class="box-main" data-img="img/pricing2.jpg">
+                            <h4 class="white">Donator</h4>
+                            <h4 class="white regular light">$10.00 <span class="small-font">/ month</span></h4>
+                            <a href="#" class="btn btn-white-fill">Buy now!</a>
+                            <i class="info-icon fa fa-question"></i>
+                        </div>
+                        <div class="box-second">
+                            <ul class="white-list text-left">
+                                <li>Host Public Pods</li>
+                                <li>Expand Pods</li>
+                                <li>Premium tools &amp; props</li>
+                                <li>Priority staff support 24/7</li>
+                                <li>Awesome Items</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="success" id="donate">
+    <section id="twitter" class="section section-padded blue-bg">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Donate</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Want to contribute to the continual growth of the community?</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Donate to MineHub.co to keep the server running and help fund future developments!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#DonatePage1" class="btn btn-lg btn-outline portfolio-link" data-toggle="modal">
-                        <i class="fa fa-rocket"></i>  Donate
-                    </a>
-                </div>
-             </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Contact US</h3>
-                        <p>Email us<br>hello@minehub.co</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="http://twitter.com/minehubco" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://thenicestplaceontheinter.net/" class="btn-social btn-outline"><i class="fa fa-spin fa-fw fa-heart"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About MineHub</h3>
-                        <p>MineHub is a free to play, donation accepting server created by <a href="http://wferr.com">Wferr</a>.</p>
-                    </div>
+                    <h3 class="text-center">
+                            <i class="fa fa-twitter fa-3x"></i>
+                            <br>
+                        </h3>
+                    <div id="tw-widget"></div>
                 </div>
             </div>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                	<div class='col-lg-4'>
-                		Terms of Service/Privacy Policy <a href="tos.html"></a>
-                	</div>
-                    <div class="col-lg-4 col-lg-offset-4">
-                        Copyright &copy; MineHub 2014-2015
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center-mobile">
+                    <h3 class="white">Join MineHub Forums</h3>
+                    <h5 class="light regular light-white">Spread your ideas, report bugs</h5>
+                    <a href="https://forum.minehub.co" class="btn btn-blue ripple trial-button">Forum</a>
+                </div>
+                <div class="col-sm-6 text-center-mobile">
+                    <h3 class="white">Server Status <span id="server-online" class="hidden open-blink"></span></h3>
+                    <div class="row opening-hours">
+                        <div class="col-sm-6 text-center-mobile">
+                            <h5 class="white light">Uptime</h5>
+                            <h3 class="regular white">Server Currently Offline</h3>
+                        </div>
+                        <div class="col-sm-6 text-center-mobile">
+                            <h5 class="white light">Contact Us</h5>
+                            <a href="mailto:hello@minehub.co"><h3 class="regular white">Hello@MineHub.co</h3></a>
+                        </div>
                     </div>
-                    <div class="col-lg-4">
-                        MineHub is made possible by <a href="amazingpeople.txt">these</a> amazing people!
-                    </div>
+                    <div class="hidden StatusCake"></div>
+                </div>
+            </div>
+            <div class="row bottom-footer text-center-mobile">
+                <div class="col-sm-8">
+                    <p class="white">&copy; 2015 All Rights Reserved. Powered by  <i class="fa fa-heart"></i></p>
+                </div>
+                <div class="col-sm-4 text-right text-center-mobile">
+                    <ul class="social-footer">
+                        <!--<li><a href="http://www.facebook.com/pages/Codrops/159107397912"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a></li> -->
+                        <li><a href="http://www.twitter.com/minehubco"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="joinnow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-popup">
+                    <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+                    <h3 class="white">Join Now</h3>
+                    <h2 class="white">play.MineHub.co</h2>
                 </div>
             </div>
         </div>
     </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+    <!-- Holder for mobile navigation -->
+    <div class="mobile-nav">
+        <ul>
+        </ul>
+        <a href="#" class="close-link"><i class="arrow_up"></i></a>
     </div>
-
-<!-- Main Site VS Servers -->
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Survival</h2>
-                            <hr class="star-primary">
-                            <img src="img/servers/survival.jpg" class="img-responsive img-centered" alt="">
-                            <p>The gamemode that started it all. You have to gather resources to survive. Our survival is based off of <a href="http://dev.bukkit.org/bukkit-plugins/teamplugin/">TeamPlugin</a>. There is no economy, you have to trade with other players</p>
-                            <ul class="list-inline item-details">
-                                <li>IP:
-                                    <strong><a href="#portfolioModal1">survival.minehub.co</a>
-                                    </strong>
-                                </li>
-                                <li>Gamemode:
-                                    <strong><a href="#portfolioModal1">Survival</a>
-                                    </strong>
-                                </li>
-                                <li>Owner:
-                                    <strong><a href="http://wferr.com">Wferr</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Lobby</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>The safest part of the server, no killing just chatting and parkour!</p>
-                            <ul class="list-inline item-details">
-                                <li>IP:
-                                    <strong><a href="#portfolioModal2">play.minehub.co</a>
-                                    </strong>
-                                </li>
-                                <li>Gamemode:
-                                    <strong><a href="#portfolioModal2">Adventure</a>
-                                    </strong>
-                                </li>
-                                <li>Owner:
-                                    <strong><a href="http://wferr.com">Wferr</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Games</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>The server thats ever changing! Currently the server features the game 7Dayz an original gamemode created by <a href="https://wferr.com">Wferr</a>. Ultra hard survival, you can survive the first night?</p>
-                            <ul class="list-inline item-details">
-                                <li>IP:
-                                    <strong><a href="#portfolioModal3">games.minehub.co</a>
-                                    </strong>
-                                </li>
-                                <li>Gamemode:
-                                    <strong><a href="#portfolioModal3">7Dayz</a>
-                                    </strong>
-                                </li>
-                                <li>Owner:
-                                    <strong><a href="http://wferr.com">Wferr</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<!-- DONATE AREA -->
-
-    <div class="portfolio-modal modal fade" id="DonatePage1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Donate to MineHub</h2>
-                            <hr class="star-primary">
-                            <p>Donations help Wferr keep the server online and helps with costs of hosting and server plugins.</p>
-							<br>
-							<p>Donating includes purely visual perks, IE nothing that effects PVPAll in-game content received as the result of a donation is purely visual, nothing that effects PVP.</p>
-
-
-
-                                <iframe frameBorder="0" src="donate.html"></iframe>
-
-
-                            <h3>This server fully complies with Mojangs <a href="https://account.mojang.com/documents/minecraft_eula">EULA</a></h3>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery  -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
+    <!-- Scripts -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
-    <!-- Google -->
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61007222-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="js/jquery.onepagenav.js"></script>
+    <script src="js/twitter.js"></script>
+    <!--<script type="text/javascript">
+        var PublicID = 'jlOtg34da0';
+        var ShowAd = false;
+        var Status = document.createElement('script');
+        Status.src = 'https://www.statuscake.com/App/Widget/Widget2JS.js';
+        Status.type = 'text/javascript';
+        Status.async = true;
+        var ssc = document.getElementsByTagName('script')[0];
+        ssc.parentNode.insertBefore(Status, ssc);
+    </script>-->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
